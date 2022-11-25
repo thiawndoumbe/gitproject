@@ -1,0 +1,93 @@
+ #ecran
+{
+  width: 300px;
+  background: rgb(255, 173, 102);
+  height: 100px;
+  display: table-cell;
+  border-radius: 10px;
+  font-size: 1.9em;
+  text-align: center;
+  vertical-align: middle;
+}
+ 
+#boutons
+{
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+ 
+.bouton
+{
+  color: red;
+  padding: 10px;
+  font-size: 1.9em;
+  margin: 9px;
+  cursor: pointer;
+  background: white;
+  border-radius: 10px;
+}
+ 
+#egal
+{
+  color: white;
+  padding: 10px;
+  font-size: 1.9em;
+  margin: 10px;
+  cursor: pointer;
+  background: green;
+  border-radius: 10px;
+}
+ 
+.calc
+{
+  width: 300px;
+  margin: auto;
+  padding: 7px;
+  background: darkolivegreen;
+  border-radius: 10px;
+  box-shadow: 0 5px black;
+}
+ 
+.bouton:hover
+{
+  box-shadow: 5px 5px 5px black;
+  transform: translateY(2px);
+}
+ 
+ 
+#egal:hover
+{
+  box-shadow: 5px 5px 5px black;
+  transform: translateY(2px);
+}
+ 
+body
+{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+ 
+#delete
+{
+  color: black;
+  padding: 10px;
+  font-size: 1.9em;
+  margin: 10px;
+  cursor: pointer;
+  background: rgb(255,184,113);
+  border-radius: 10px;
+}
+a
+{
+text-decoration: none;
+color: black;
+}
+#delete:hover
+{
+  box-shadow: 5px 5px 5px black;
+  
+} 
