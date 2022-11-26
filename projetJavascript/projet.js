@@ -4,7 +4,6 @@ const listeKeycode = touches.map(touche => touche.dataset.key);
 const ecran = document.querySelector('.ecran');
 
 document.addEventListener('keydown', (e) => {
-    const valeur = e.keyCode.toString();
     calculer(valeur)
 
 })
